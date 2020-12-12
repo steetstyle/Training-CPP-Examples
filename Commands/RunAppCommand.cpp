@@ -1,0 +1,13 @@
+//
+// Created by roy on 12.12.2020.
+//
+
+#include "RunAppCommand.h"
+
+void RunAppCommand::Execute() const {
+    if(&app != nullptr) app->run();
+}
+
+RunAppCommand::RunAppCommand(App &app){
+    this->app = &app;
+}
