@@ -20,6 +20,35 @@ CMakeFiles/Train.dir/Apps/MobileApp.cpp.o: ../Core/App.h
 
 CMakeFiles/Train.dir/Book/Book.cpp.o: ../Book/Book.cpp
 CMakeFiles/Train.dir/Book/Book.cpp.o: ../Book/Book.h
+CMakeFiles/Train.dir/Book/Book.cpp.o: ../Book/Page.h
+CMakeFiles/Train.dir/Book/Book.cpp.o: ../Book/Question.h
+CMakeFiles/Train.dir/Book/Book.cpp.o: ../Book/Section.h
+CMakeFiles/Train.dir/Book/Book.cpp.o: ../Core/SharedState.h
+CMakeFiles/Train.dir/Book/Book.cpp.o: ../States/Book/BookState.h
+CMakeFiles/Train.dir/Book/Book.cpp.o: ../States/Book/PageState.h
+CMakeFiles/Train.dir/Book/Book.cpp.o: ../States/Book/QuestionState.h
+CMakeFiles/Train.dir/Book/Book.cpp.o: ../States/Book/SectionState.h
+
+CMakeFiles/Train.dir/Book/Page.cpp.o: ../Book/Page.cpp
+CMakeFiles/Train.dir/Book/Page.cpp.o: ../Book/Page.h
+CMakeFiles/Train.dir/Book/Page.cpp.o: ../Book/Question.h
+CMakeFiles/Train.dir/Book/Page.cpp.o: ../Core/SharedState.h
+CMakeFiles/Train.dir/Book/Page.cpp.o: ../States/Book/PageState.h
+CMakeFiles/Train.dir/Book/Page.cpp.o: ../States/Book/QuestionState.h
+
+CMakeFiles/Train.dir/Book/Question.cpp.o: ../Book/Question.cpp
+CMakeFiles/Train.dir/Book/Question.cpp.o: ../Book/Question.h
+CMakeFiles/Train.dir/Book/Question.cpp.o: ../Core/SharedState.h
+CMakeFiles/Train.dir/Book/Question.cpp.o: ../States/Book/QuestionState.h
+
+CMakeFiles/Train.dir/Book/Section.cpp.o: ../Book/Page.h
+CMakeFiles/Train.dir/Book/Section.cpp.o: ../Book/Question.h
+CMakeFiles/Train.dir/Book/Section.cpp.o: ../Book/Section.cpp
+CMakeFiles/Train.dir/Book/Section.cpp.o: ../Book/Section.h
+CMakeFiles/Train.dir/Book/Section.cpp.o: ../Core/SharedState.h
+CMakeFiles/Train.dir/Book/Section.cpp.o: ../States/Book/PageState.h
+CMakeFiles/Train.dir/Book/Section.cpp.o: ../States/Book/QuestionState.h
+CMakeFiles/Train.dir/Book/Section.cpp.o: ../States/Book/SectionState.h
 
 CMakeFiles/Train.dir/Commands/ComplexCommand.cpp.o: ../Commands/ComplexCommand.cpp
 CMakeFiles/Train.dir/Commands/ComplexCommand.cpp.o: ../Commands/ComplexCommand.h
@@ -60,6 +89,22 @@ CMakeFiles/Train.dir/Core/Receiver.cpp.o: ../Core/Receiver.h
 
 CMakeFiles/Train.dir/Core/SharedState.cpp.o: ../Core/SharedState.cpp
 CMakeFiles/Train.dir/Core/SharedState.cpp.o: ../Core/SharedState.h
+
+CMakeFiles/Train.dir/States/Book/BookState.cpp.o: ../Core/SharedState.h
+CMakeFiles/Train.dir/States/Book/BookState.cpp.o: ../States/Book/BookState.cpp
+CMakeFiles/Train.dir/States/Book/BookState.cpp.o: ../States/Book/BookState.h
+
+CMakeFiles/Train.dir/States/Book/PageState.cpp.o: ../Core/SharedState.h
+CMakeFiles/Train.dir/States/Book/PageState.cpp.o: ../States/Book/PageState.cpp
+CMakeFiles/Train.dir/States/Book/PageState.cpp.o: ../States/Book/PageState.h
+
+CMakeFiles/Train.dir/States/Book/QuestionState.cpp.o: ../Core/SharedState.h
+CMakeFiles/Train.dir/States/Book/QuestionState.cpp.o: ../States/Book/QuestionState.cpp
+CMakeFiles/Train.dir/States/Book/QuestionState.cpp.o: ../States/Book/QuestionState.h
+
+CMakeFiles/Train.dir/States/Book/SectionState.cpp.o: ../Core/SharedState.h
+CMakeFiles/Train.dir/States/Book/SectionState.cpp.o: ../States/Book/SectionState.cpp
+CMakeFiles/Train.dir/States/Book/SectionState.cpp.o: ../States/Book/SectionState.h
 
 CMakeFiles/Train.dir/main.cpp.o: ../Apps/MainApp.h
 CMakeFiles/Train.dir/main.cpp.o: ../Core/App.h

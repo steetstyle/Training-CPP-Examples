@@ -108,6 +108,24 @@
 		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Book/Book.h">
 			<Option target="Train"/>
 		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Book/Page.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Book/Page.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Book/Question.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Book/Question.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Book/Section.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Book/Section.h">
+			<Option target="Train"/>
+		</Unit>
 		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Commands/ComplexCommand.cpp">
 			<Option target="Train"/>
 		</Unit>
@@ -160,6 +178,30 @@
 			<Option target="Train"/>
 		</Unit>
 		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Core/SharedState.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/States/Book/BookState.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/States/Book/BookState.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/States/Book/PageState.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/States/Book/PageState.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/States/Book/QuestionState.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/States/Book/QuestionState.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/States/Book/SectionState.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/States/Book/SectionState.h">
 			<Option target="Train"/>
 		</Unit>
 		<Unit filename="/home/roy/CLionProjects/Odevler/Train/main.cpp">

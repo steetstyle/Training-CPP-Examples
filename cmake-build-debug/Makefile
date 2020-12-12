@@ -251,6 +251,87 @@ Book/Book.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Book.cpp.s
 .PHONY : Book/Book.cpp.s
 
+Book/Page.o: Book/Page.cpp.o
+
+.PHONY : Book/Page.o
+
+# target to build an object file
+Book/Page.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Page.cpp.o
+.PHONY : Book/Page.cpp.o
+
+Book/Page.i: Book/Page.cpp.i
+
+.PHONY : Book/Page.i
+
+# target to preprocess a source file
+Book/Page.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Page.cpp.i
+.PHONY : Book/Page.cpp.i
+
+Book/Page.s: Book/Page.cpp.s
+
+.PHONY : Book/Page.s
+
+# target to generate assembly for a file
+Book/Page.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Page.cpp.s
+.PHONY : Book/Page.cpp.s
+
+Book/Question.o: Book/Question.cpp.o
+
+.PHONY : Book/Question.o
+
+# target to build an object file
+Book/Question.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Question.cpp.o
+.PHONY : Book/Question.cpp.o
+
+Book/Question.i: Book/Question.cpp.i
+
+.PHONY : Book/Question.i
+
+# target to preprocess a source file
+Book/Question.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Question.cpp.i
+.PHONY : Book/Question.cpp.i
+
+Book/Question.s: Book/Question.cpp.s
+
+.PHONY : Book/Question.s
+
+# target to generate assembly for a file
+Book/Question.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Question.cpp.s
+.PHONY : Book/Question.cpp.s
+
+Book/Section.o: Book/Section.cpp.o
+
+.PHONY : Book/Section.o
+
+# target to build an object file
+Book/Section.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Section.cpp.o
+.PHONY : Book/Section.cpp.o
+
+Book/Section.i: Book/Section.cpp.i
+
+.PHONY : Book/Section.i
+
+# target to preprocess a source file
+Book/Section.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Section.cpp.i
+.PHONY : Book/Section.cpp.i
+
+Book/Section.s: Book/Section.cpp.s
+
+.PHONY : Book/Section.s
+
+# target to generate assembly for a file
+Book/Section.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Section.cpp.s
+.PHONY : Book/Section.cpp.s
+
 Commands/ComplexCommand.o: Commands/ComplexCommand.cpp.o
 
 .PHONY : Commands/ComplexCommand.o
@@ -494,6 +575,114 @@ Core/SharedState.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Core/SharedState.cpp.s
 .PHONY : Core/SharedState.cpp.s
 
+States/Book/BookState.o: States/Book/BookState.cpp.o
+
+.PHONY : States/Book/BookState.o
+
+# target to build an object file
+States/Book/BookState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/BookState.cpp.o
+.PHONY : States/Book/BookState.cpp.o
+
+States/Book/BookState.i: States/Book/BookState.cpp.i
+
+.PHONY : States/Book/BookState.i
+
+# target to preprocess a source file
+States/Book/BookState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/BookState.cpp.i
+.PHONY : States/Book/BookState.cpp.i
+
+States/Book/BookState.s: States/Book/BookState.cpp.s
+
+.PHONY : States/Book/BookState.s
+
+# target to generate assembly for a file
+States/Book/BookState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/BookState.cpp.s
+.PHONY : States/Book/BookState.cpp.s
+
+States/Book/PageState.o: States/Book/PageState.cpp.o
+
+.PHONY : States/Book/PageState.o
+
+# target to build an object file
+States/Book/PageState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/PageState.cpp.o
+.PHONY : States/Book/PageState.cpp.o
+
+States/Book/PageState.i: States/Book/PageState.cpp.i
+
+.PHONY : States/Book/PageState.i
+
+# target to preprocess a source file
+States/Book/PageState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/PageState.cpp.i
+.PHONY : States/Book/PageState.cpp.i
+
+States/Book/PageState.s: States/Book/PageState.cpp.s
+
+.PHONY : States/Book/PageState.s
+
+# target to generate assembly for a file
+States/Book/PageState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/PageState.cpp.s
+.PHONY : States/Book/PageState.cpp.s
+
+States/Book/QuestionState.o: States/Book/QuestionState.cpp.o
+
+.PHONY : States/Book/QuestionState.o
+
+# target to build an object file
+States/Book/QuestionState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/QuestionState.cpp.o
+.PHONY : States/Book/QuestionState.cpp.o
+
+States/Book/QuestionState.i: States/Book/QuestionState.cpp.i
+
+.PHONY : States/Book/QuestionState.i
+
+# target to preprocess a source file
+States/Book/QuestionState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/QuestionState.cpp.i
+.PHONY : States/Book/QuestionState.cpp.i
+
+States/Book/QuestionState.s: States/Book/QuestionState.cpp.s
+
+.PHONY : States/Book/QuestionState.s
+
+# target to generate assembly for a file
+States/Book/QuestionState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/QuestionState.cpp.s
+.PHONY : States/Book/QuestionState.cpp.s
+
+States/Book/SectionState.o: States/Book/SectionState.cpp.o
+
+.PHONY : States/Book/SectionState.o
+
+# target to build an object file
+States/Book/SectionState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/SectionState.cpp.o
+.PHONY : States/Book/SectionState.cpp.o
+
+States/Book/SectionState.i: States/Book/SectionState.cpp.i
+
+.PHONY : States/Book/SectionState.i
+
+# target to preprocess a source file
+States/Book/SectionState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/SectionState.cpp.i
+.PHONY : States/Book/SectionState.cpp.i
+
+States/Book/SectionState.s: States/Book/SectionState.cpp.s
+
+.PHONY : States/Book/SectionState.s
+
+# target to generate assembly for a file
+States/Book/SectionState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/SectionState.cpp.s
+.PHONY : States/Book/SectionState.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -542,6 +731,15 @@ help:
 	@echo "... Book/Book.o"
 	@echo "... Book/Book.i"
 	@echo "... Book/Book.s"
+	@echo "... Book/Page.o"
+	@echo "... Book/Page.i"
+	@echo "... Book/Page.s"
+	@echo "... Book/Question.o"
+	@echo "... Book/Question.i"
+	@echo "... Book/Question.s"
+	@echo "... Book/Section.o"
+	@echo "... Book/Section.i"
+	@echo "... Book/Section.s"
 	@echo "... Commands/ComplexCommand.o"
 	@echo "... Commands/ComplexCommand.i"
 	@echo "... Commands/ComplexCommand.s"
@@ -569,6 +767,18 @@ help:
 	@echo "... Core/SharedState.o"
 	@echo "... Core/SharedState.i"
 	@echo "... Core/SharedState.s"
+	@echo "... States/Book/BookState.o"
+	@echo "... States/Book/BookState.i"
+	@echo "... States/Book/BookState.s"
+	@echo "... States/Book/PageState.o"
+	@echo "... States/Book/PageState.i"
+	@echo "... States/Book/PageState.s"
+	@echo "... States/Book/QuestionState.o"
+	@echo "... States/Book/QuestionState.i"
+	@echo "... States/Book/QuestionState.s"
+	@echo "... States/Book/SectionState.o"
+	@echo "... States/Book/SectionState.i"
+	@echo "... States/Book/SectionState.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -3,3 +3,8 @@
 //
 
 #include "Book.h"
+
+Book::Book(BookState &bookInfo)
+{
+    this->bookInformation = &bookInfo;
+}

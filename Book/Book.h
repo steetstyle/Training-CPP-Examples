@@ -5,8 +5,35 @@
 #ifndef TRAIN_BOOK_H
 #define TRAIN_BOOK_H
 
+#include "list"
 
-class Book {
+/*
+ *
+ * Uniteler
+ *      -> Sayfa
+ *              -> Sorular(Cevaplar)
+ *
+ *
+ *
+ *
+ * */
+
+#include "../States//Book//BookState.h"
+#include "Section.h"
+
+class Book  {
+
+private:
+    BookState * bookInformation;
+    list<Section> sectionList;
+
+public:
+    Book(BookState &bookInfo);
+
+public:
+    virtual list<Section> getSectionList() const {
+        return sectionList;
+    }
 
 };
 
