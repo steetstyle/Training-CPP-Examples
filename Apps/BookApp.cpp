@@ -12,6 +12,7 @@
 using namespace std;
 
 int BookApp::run() {
+    App::run();
     cout << "Book App started " << endl;
     continue_reading = true;
 
@@ -19,7 +20,8 @@ int BookApp::run() {
 
     while(continue_reading){
 
-        cout << "Choose App = ";
+        cout << "For create book press      'c'"<< endl;
+        cout << "Choose (x for exit on BookApp) = ";
         cin >>  commandText;
         cout << endl;
 

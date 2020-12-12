@@ -16,6 +16,7 @@ public:
 public:
     virtual int run();
     int exitApp();
+    void clearTerminalScreen();
 };
 
 

@@ -17,14 +17,16 @@
 using namespace std;
 
 int MainApp::run(){
-    cout << "Main App started " << endl;
+    App::run();
     continue_reading = true;
 
     char commandText;
 
     while(continue_reading){
 
-        cout << "Choose App = ";
+        cout << "For run book app press     'b'"<< endl;
+        cout << "For run mobile app press   'm'"<< endl;
+        cout << "Choose App (x for exit on BookApp) = ";
         cin >>  commandText;
         cout << endl;
 

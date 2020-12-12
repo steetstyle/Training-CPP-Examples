@@ -5,7 +5,10 @@
 #include "RunAppCommand.h"
 
 void RunAppCommand::Execute() const {
-    if(&app != nullptr) app->run();
+    if(&app != nullptr) {
+        app->clearTerminalScreen();
+        app->run();
+    }
 }
 
 RunAppCommand::RunAppCommand(App &app){

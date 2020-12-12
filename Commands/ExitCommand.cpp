@@ -5,7 +5,10 @@
 #include "ExitCommand.h"
 
 void ExitCommand::Execute() const {
-    if(&app != nullptr) app->exitApp();
+    if(&app != nullptr) {
+        app->clearTerminalScreen();
+        app->exitApp();
+    }
 }
 
 ExitCommand::ExitCommand(App &app){

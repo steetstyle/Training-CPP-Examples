@@ -6,28 +6,13 @@
 #include "../Commands/ExitCommand.h"
 
 #include "iostream"
+#include <string>
 
 using namespace std;
 
 
 int App::run(){
-
-    continue_reading = true;
-
-    char commandText;
-
-    while(continue_reading){
-
-        cout << "Press Some key = ";
-        cin >>  commandText;
-        cout << endl;
-
-        if(commandText == 'x'){
-            ExitCommand(*this).Execute();
-        }
-
-    }
-
+    this->clearTerminalScreen();
     return 0;
 }
 
@@ -38,4 +23,8 @@ int App::exitApp() {
 
 App::~App() {
     cout << "App Finished";
+}
+
+void App::clearTerminalScreen() {
+    cout << string( 100, '\n' );
 }
