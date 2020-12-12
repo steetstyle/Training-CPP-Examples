@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/roy/CLionProjects/Odevler/Train/Apps/BookApp.cpp
+BookApp.h
+/home/roy/CLionProjects/Odevler/Train/Apps/BookApp.h
+../Commands/ExitCommand.h
+/home/roy/CLionProjects/Odevler/Train/Commands/ExitCommand.h
+iostream
+/home/roy/CLionProjects/Odevler/Train/Apps/iostream
+../Book/Book.h
+/home/roy/CLionProjects/Odevler/Train/Book/Book.h
+../States/Book/BookState.h
+/home/roy/CLionProjects/Odevler/Train/States/Book/BookState.h
+
+/home/roy/CLionProjects/Odevler/Train/Apps/BookApp.h
+../Core/App.h
+/home/roy/CLionProjects/Odevler/Train/Core/App.h
+
 /home/roy/CLionProjects/Odevler/Train/Book/Book.cpp
 Book.h
 /home/roy/CLionProjects/Odevler/Train/Book/Book.h
@@ -30,10 +46,6 @@ list
 Question.h
 /home/roy/CLionProjects/Odevler/Train/Book/Question.h
 
-/home/roy/CLionProjects/Odevler/Train/Book/Question.cpp
-Question.h
-/home/roy/CLionProjects/Odevler/Train/Book/Question.h
-
 /home/roy/CLionProjects/Odevler/Train/Book/Question.h
 list
 /home/roy/CLionProjects/Odevler/Train/Book/list
@@ -53,6 +65,16 @@ list
 /home/roy/CLionProjects/Odevler/Train/States/Book/SectionState.h
 Page.h
 /home/roy/CLionProjects/Odevler/Train/Book/Page.h
+
+/home/roy/CLionProjects/Odevler/Train/Commands/ExitCommand.h
+../Core/Command.h
+/home/roy/CLionProjects/Odevler/Train/Core/Command.h
+../Core/App.h
+/home/roy/CLionProjects/Odevler/Train/Core/App.h
+
+/home/roy/CLionProjects/Odevler/Train/Core/App.h
+
+/home/roy/CLionProjects/Odevler/Train/Core/Command.h
 
 /home/roy/CLionProjects/Odevler/Train/Core/SharedState.h
 

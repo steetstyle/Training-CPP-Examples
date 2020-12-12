@@ -11,6 +11,7 @@
 using namespace std;
 
 class SectionState : public SharedState {
+public:
     string name;
 };
 

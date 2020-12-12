@@ -11,7 +11,7 @@
 using namespace std;
 
 class QuestionState : public SharedState {
-
+public:
     string questionText;
 
 };

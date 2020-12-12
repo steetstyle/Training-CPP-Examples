@@ -22,6 +22,10 @@ public:
     virtual list<Page> getPageList() const {
         return pagelist;
     };
+
+    virtual void addPage(Page &page){
+        this->pagelist.push_back(page);
+    }
 };
 
 

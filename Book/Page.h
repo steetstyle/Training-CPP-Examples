@@ -20,6 +20,10 @@ public:
         return questionList;
     }
 
+    virtual void addQuestion(Question &question){
+        this->questionList.push_back(question);
+    }
+
 };
 
 

@@ -8,6 +8,8 @@
 #include "../Core/App.h"
 class BookApp: public App {
 
+    int run() override;
+
 };
 
 

@@ -35,6 +35,10 @@ public:
         return sectionList;
     }
 
+    virtual void addSection(Section &section){
+        this->sectionList.push_back(section);
+    }
+
 };
 
 

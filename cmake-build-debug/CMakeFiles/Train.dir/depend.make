@@ -3,7 +3,18 @@
 
 CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../Apps/BookApp.cpp
 CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../Apps/BookApp.h
+CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../Book/Book.h
+CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../Book/Page.h
+CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../Book/Question.h
+CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../Book/Section.h
+CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../Commands/ExitCommand.h
 CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../Core/App.h
+CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../Core/Command.h
+CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../Core/SharedState.h
+CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../States/Book/BookState.h
+CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../States/Book/PageState.h
+CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../States/Book/QuestionState.h
+CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../States/Book/SectionState.h
 
 CMakeFiles/Train.dir/Apps/MainApp.cpp.o: ../Apps/BookApp.h
 CMakeFiles/Train.dir/Apps/MainApp.cpp.o: ../Apps/MainApp.cpp

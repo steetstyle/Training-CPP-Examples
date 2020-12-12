@@ -10,6 +10,7 @@
 
 using namespace std;
 class PageState : public SharedState {
+public:
     string name;
 };
 
