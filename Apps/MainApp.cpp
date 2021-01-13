@@ -7,11 +7,14 @@
 
 
 #include "MainApp.h"
-#include "MobileApp.h"
-#include "BookApp.h"
+#include "Book/BookApp.h"
 
 #include "../Commands/ExitCommand.h"
 #include "../Commands/RunAppCommand.h"
+#include "Employee/EmployeeApp.h"
+#include "LorentzVector/LorentzVectorApp.h"
+#include "ComplexNumber/ComplexNumberApp.h"
+#include "Rectangle/RectangleApp.h"
 
 
 using namespace std;
@@ -24,8 +27,11 @@ int MainApp::run(){
 
     while(continue_reading){
 
-        cout << "For run book app press     'b'"<< endl;
-        cout << "For run mobile app press   'm'"<< endl;
+        cout << "For run Book app press     'b'"<< endl;
+        cout << "For run Employee app press   'c'"<< endl;
+        cout << "For run Lorent Vector app press   'l'"<< endl;
+        cout << "For run ComplexNumber app press   'k'"<< endl;
+        cout << "For run Rectangle app press   'r'"<< endl;
         cout << "Choose App (x for exit on BookApp) = ";
         cin >>  commandText;
         cout << endl;
@@ -34,12 +40,24 @@ int MainApp::run(){
             ExitCommand(*this).Execute();
         }
 
-        if(commandText == 'm'){
-            RunAppCommand(*new MobileApp()).Execute();
+        if(commandText == 'c'){
+            RunAppCommand(*new EmployeeApp()).Execute();
         }
 
         if(commandText == 'b'){
             RunAppCommand(*new BookApp()).Execute();
+        }
+
+        if(commandText == 'k'){
+            RunAppCommand(*new ComplexNumberApp()).Execute();
+        }
+
+        if(commandText == 'l'){
+            RunAppCommand(*new LorentzVectorApp()).Execute();
+        }
+
+        if(commandText == 'r'){
+            RunAppCommand(*new RectangleApp()).Execute();
         }
 
     }
